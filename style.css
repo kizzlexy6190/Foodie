@@ -1,0 +1,410 @@
+.sec1{
+    background: url(images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+}
+.sec1 h1{
+    font-size: 60px;
+    }
+.column{
+    background: url(images/hero-banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+}
+.icon i{
+ color:orangered;
+ font-size: 60px;
+}
+/* .each{
+    background: orangered;
+    position: absolute;
+   height: 400px;
+   clip-path: polygon(0 90%,100% 50%,100% 100%,0 100%);
+   z-index: 1;
+} */
+.each:hover{
+    transition: ease-in-out 2s ;
+    background-color: orangered;
+}
+.each:hover i{
+    color: white;
+}
+.para{
+    font-size: 30px;
+}
+.para i{
+    color: orangered;
+    font-size: 40px;
+}
+.each2 h2{
+    font-size: 60px;
+}
+.each2 img{
+    height: 500px;
+    width: 100%;
+}
+.imag{
+    position: absolute;
+  top: 1200px;
+
+}
+.sec4{
+    background-color: rgba(220, 220, 220, 0.452);
+}
+.but button{
+    border: none;
+    background-color: white;
+}
+.sec4 h1{
+    font-size: 60px;
+}
+.but{
+    text-align: center;
+}
+.but button{
+    padding-right: 15px;
+      padding-left: 15px;
+      padding-top: 8px;
+          padding-bottom: 8px;
+          margin: 2px;
+}
+.row1 i{
+    color: orange;
+}
+.each3{
+    background-color: white;
+    margin:-1px;
+
+}
+.sec5{
+    background: url(images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}
+.sec5 h1{
+font-size: 55px;
+margin-top: 20px;
+}
+.imags{
+    position: absolute;
+    top: 3060px;
+    left: 50%;
+}
+.sec6 h1{
+    font-size: 55px;
+    margin-top: 20px;
+    }
+    .column2{
+        background: url(images/delivery-banner-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+    .each5{
+        padding-top: 100px;
+    }
+   
+    .heart{
+        animation: scale 1s cubic-bezier(0.55,0.06,0.68,0.19) infinite alternate;
+    }
+    @keyframes scale{
+        0%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(1.05);
+        }
+    }
+    .move{
+        animation: rot 1s cubic-bezier(0.55,0.06,0.68,0.19) infinite alternate;  
+    }
+    @keyframes rot{
+        0%{
+            transform:scale(1)
+        } 
+        100%{
+            transform: scale(1.05);
+        }
+    }
+    .sec7 h1{
+        font-size: 55px;
+        margin-top: 20px;
+    }
+    .sec7{
+        background-color: rgba(220, 220, 220, 0.452);
+        padding-bottom: 150px;
+    }
+    .sec7 .each6{
+        background-color: white;
+        margin: -12px;
+        padding: 50px;
+    }
+    .back2{
+        background: url(images/banner-1.jpg);
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: white;
+        
+    }
+    /* .back3{
+        margin: -5px;
+  
+    } */
+    .back2 h1{
+        font-size: 50px;
+        margin-top: 90px;
+    }
+   .bac1{
+    background: url(images/banner-2.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    /* margin: -10px; */
+   }
+   .bac2{
+    background: url(images/banner-3.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* margin: -10px; */
+    color: white;
+   }
+   .bac3{
+    background: url(images/banner-4.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    margin-top: 10px;
+   }
+   .bac1 h1{
+    font-size: 50px;
+   }
+   .bac2 h1{
+    font-size: 50px;
+   }
+   .bac3 h1{
+    font-size: 50px;
+   }
+   .sec9{
+    margin-top: 80px;
+    background-color: rgba(220, 220, 220, 0.452);
+    padding-bottom: 150px;
+   }
+   .sec10{
+    background: url(images/footer-illustration.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 550px;
+    background-attachment: fixed;
+   }
+   .sec10 i{
+    color: white;
+    padding: 15px;
+    background-color: orangered;
+   }
+   .sec10 input{
+    width: 50%;
+    outline: none;
+    margin: -10px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+   }
+
+   .frm{
+    box-shadow: 2px 4px 1px 2px gainsboro;
+    border-bottom: 1px solid gray;
+    padding: 25px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    
+   }
+
+   textarea{
+    border: 2px solid gainsboro;
+    outline: none;
+
+   }
+   .foot{
+    width: 200px;
+    position:absolute;
+    animation: rots 20s linear infinite;  
+}
+@keyframes rots{
+    0%{left: -160px;}
+    100%{left:100%}
+}
+@media(max-width:600px){
+    .sec1 h1{
+        font-size: 30px;
+    }
+    .sec1 img{
+        display: none;
+    }
+    .sec1 .column{
+        display: none;
+    }
+    .sec1{
+        height: 450px;
+        text-align: center;
+    }
+    .sec3{
+       text-align: center; 
+       margin-top: 70px;
+    }
+
+    .each2 img{
+        height: 400px;
+        width: 100%;
+    }
+    .imag{
+        position:absolute;
+        top: 2500px;
+        height: 100px;
+    }
+    .each2 h2{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .sec4{
+        text-align: center; 
+        margin-top: 70px;  
+        background-color: rgba(220, 220, 220, 0.452);
+        padding: 15px;
+    }
+    .sec4 h1{
+        font-size: 40px;
+    }
+    .but button{
+        margin: 1px;  
+    }
+    .each3{
+        margin: 30px;
+        
+    }
+    .perc{
+        margin:10px;
+        text-align: start;
+        padding: 15px;
+    }
+    .sec5{
+        text-align: center;
+        height: 750px;
+    }
+    .sec5 h1{
+        font-size: 30px;
+    }
+    .imags{
+        position:absolute;
+        top: 7700px;
+        left: 0;
+        width: 100px;
+        height: 100px; 
+    }
+    .sec6{
+        text-align: center;
+    }
+    .sec6 h1{
+        font-size: 35px;
+    }
+    .column2{
+        height: 300px;
+    }
+    .sec7{
+        text-align: center;
+    }
+    .sec7 h1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .sec7 .each6{
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+    .sec7 h4{
+        font-size: 15px;
+    }
+    .sec8{
+        text-align: center;
+    }
+    .back2{
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .back2 h1{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .bac1{
+        height: 300px;
+        margin-bottom: 10px;
+
+    }
+    .bac2{
+        height: 300px;
+        margin-bottom: 10px;
+
+    }
+    .bac3{
+        height: 300px;
+        margin-bottom: 10px;
+
+    }
+    .bac1 h1{
+        font-size: 25px;
+       }
+       .bac2 h1{
+        font-size: 25px;
+       }
+       .bac3 h1{
+        font-size: 25px;
+       }
+       .sec9{
+        padding-bottom: 100px;
+       }
+       .cola{
+        margin-bottom: 10px;
+       }
+       .bord{
+        border-bottom: 1px solid gainsboro;
+       }
+       .sec10{
+        height: 1150px;
+       }
+    
+}
+@media(max-width:968px){
+    .sec1 img{
+        display: none;
+    }
+    .sec1 .column{
+        display: none;
+    }
+    .imags{
+        position:absolute;
+        top: 4800px;
+        left: 0;
+        width: 100px;
+        height: 100px; 
+    } 
+    .imag{
+        position:absolute;
+        top: 1800px;
+        height: 100px;
+    }
+    .sec5{
+        height: 700px;
+    }
+    /* .sec10{
+        height: 760px;
+       } */
+}
